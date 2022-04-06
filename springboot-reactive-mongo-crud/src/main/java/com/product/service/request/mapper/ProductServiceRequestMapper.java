@@ -1,12 +1,12 @@
 package com.product.service.request.mapper;
 
-import com.dto.ProductDto;
-import com.product.service.entity.Product;
+
 import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
 
 @Mapper
 public interface ProductServiceRequestMapper {
 
-    ProductDto entityToDto(Product product);
-    Product dtoToEntity(ProductDto productDto);
+    ProductServiceRequestMapper PRODUCT_SERVICE_REQUEST_MAPPER= Mappers.getMapper(ProductServiceRequestMapper.class);
+
 }

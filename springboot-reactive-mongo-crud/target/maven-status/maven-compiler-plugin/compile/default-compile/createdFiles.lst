@@ -1,0 +1,5 @@
+com\product\service\request\mapper\ProductServiceRequestMapperImpl.class
+com\product\service\utils\AppUtils.class
+com\product\service\service\ProductService.class
+com\product\service\response\mapper\ProductServiceResponseMapper.class
+com\product\service\SpringbootReactiveMongoCrudApplication.class

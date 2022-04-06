@@ -21,8 +21,8 @@ public class AppUtils {
     public static Product dtoToEntity(ProductDto productDto){
 
         Product product=new Product();
-        BeanUtils.copyProperties(productDto,product); // we can use BeanUtils.copyProperties(),
-        return product;                          //when source and destination objects have same attributes or member
+        BeanUtils.copyProperties(productDto,product);
+        return product;
 
     }
 
