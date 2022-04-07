@@ -1,4 +1,4 @@
 package com.product.service.response.mapper;
 
-public class ProductServiceResponseMapper {
+public interface ProductServiceResponseMapper {
 }
